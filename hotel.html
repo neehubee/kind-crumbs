@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Dashboard</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <!-- Navigation Bar for Home and Settings -->
+    <header>
+        <nav>
+            <a href="home.html" class="home-btn">Home</a>
+            <button class="settings-btn" id="settingsButton">Settings</button>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <h1>Hotel Dashboard</h1>
+        <form class="hotel-form">
+            <div class="form-group">
+                <label for="hotelName">Hotel Name:</label>
+                <input type="text" id="hotelName" name="hotelName" placeholder="Enter hotel name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="place">Place:</label>
+                <input type="text" id="place" name="place" placeholder="Enter the place" required>
+            </div>
+
+            <div class="form-group">
+                <label for="foodType">Type of Food:</label>
+                <input type="text" id="foodType" name="foodType" placeholder="Enter type of food" required>
+            </div>
+
+            <div class="form-group">
+                <label for="amountOfFood">Amount of Food:</label>
+                <input type="text" id="amountOfFood" name="amountOfFood" placeholder="Enter amount of food" required>
+            </div>
+
+            <div class="form-group">
+                <label for="makingTime">Making Time :</label>
+                <input type="number" id="makingTime" name="makingTime" placeholder="Enter making time" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="hotel.js"></script>
+</body>
+</html>

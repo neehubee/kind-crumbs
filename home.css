@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F8E9; /* Off-white background */
+    color: #1B5E20; /* Deep green text */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Align content on both sides */
+    background-color: #1B5E20; /* Deep green */
+    padding: 15px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+nav a, nav button {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Medium green for buttons */
+    border-radius: 5px;
+    margin-left: 15px; /* Add space between items */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav button:hover {
+    background-color: #81C784; /* Lighter green on hover */
+}
+
+/* Main Section */
+.home-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.home-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4CAF50; /* Medium green */
+    color: #FFFFFF; /* White text */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.home-buttons a:hover {
+    background-color: #81C784; /* Lighter green on hover */
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    background-color: #C8E6C9; /* Very light green */
+    padding: 50px;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #FFFFFF; /* White boxes */
+    border-radius: 10px;
+}
+
+/* Impact Section */
+.impact-section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Join Us Section */
+.join-us-section {
+    background-color: #C8E6C9;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1B5E20;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

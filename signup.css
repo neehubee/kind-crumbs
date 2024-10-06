@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the signup form - large box */
+.signup-container {
+    background-color: #fff;
+    padding: 40px;  /* Increased padding to make it larger */
+    border-radius: 10px; /* Softer, rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Larger shadow for more definition */
+    width: 400px; /* Increased width for a larger box */
+}
+
+/* Center the heading and give space at the bottom */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Styling input fields, labels, and dropdown */
+.input-group {
+    margin-bottom: 20px; /* Larger spacing for a better look */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px; /* Slightly larger radius */
+    box-sizing: border-box;
+    font-size: 16px; /* Larger font for better readability */
+}
+
+/* Styling the signup button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Larger button text */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling the login link below the form */
+.login-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+

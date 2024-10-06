@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Dashboard</title>
+    <link rel="stylesheet" href="ngo.css">
+</head>
+<body>
+    <!-- Navigation for Home and Settings -->
+    <header>
+        <nav>
+            <a href="index.html" class="home-btn">Home</a>
+            <button class="settings-btn" id="settingsButton">Settings</button>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <h1>NGO Dashboard</h1>
+        <form class="ngo-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="place">Place:</label>
+                <input type="text" id="place" name="place" placeholder="Enter your place" required>
+            </div>
+
+            <div class="form-group ready-to-donate">
+                <label>Ready to Donate:</label>
+                <label>
+                    <input type="checkbox" id="readyToDonate" name="readyToDonate">
+                    Yes
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="ngo.js"></script>
+</body>
+</html>
